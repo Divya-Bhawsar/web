@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Noto+Sans:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Noto+Sans:wght@700;900&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Noto+Sans:wght@700;900&family=Oswald&display=swap');
+/* Home page css */
+.container
+  {
+      display:flex;
+      height: 40vm;
+      width: 80vw;
+    
+  }
+.sidebar
+{
+  background-color: rgb(80, 86, 104);
+   
+   font-family: 'Alkatra', cursive;
+font-family: 'Noto Sans', sans-serif;
+height: 50vw;
+transition: transform 0.3s ease-in;
+}
+  
+  *
+  {
+      
+      margin-top: 5px;
+      padding: 5px;
+  }
+  .sidebar nav{
+      padding:10px;
+  }
+  .sidebar nav li{
+      list-style: none;
+      font-size: 19px;
+      padding:25px ;
+  }
+  .sidebar nav li a
+  {
+      text-decoration:none ;
+      color:black;
+  }
+  .main
+  {
+   width:70vw;
+   height: 50vw;
+  }
+  .ham
+  {
+    position: absolute;
+    cursor: pointer;
+      margin-top: 0px;
+      left:3px;
+  }
+  .cross
+  {
+      position: absolute;
+      left: 165px;
+      margin-top: 5px;
+  }
+  .sidebarGo
+  {
+      transform: translate(-440px,0px);
+      position: absolute;
+  }
+  
+  .infocontainer
+  {
+     background-color: rgb(200, 200, 233);
+      height: 30vm;
+      width: 50vw;
+    margin-left: 300px;
+      display: flex;
+      justify-content: space-around;
+      text-decoration: rgb(89, 0, 255);
+      text-decoration-color: rgb(228, 147, 26);
+      padding: 80px;
+      border-radius: 200px;
+      border: 10px solid rgb(10, 221, 105);
+  }
+  .devpic img
+  {
+      margin-right:120px;
+      width:1;
+      height:100vm;
+      border-radius: 40px;
+  }
+  .devinfo
+  {
+
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 10px;
+  }
+  .hello
+  {
+  font-size: 4em;
+  color: rgb(10, 9, 8);
+  text-decoration-color: rgb(228, 147, 26);
+  }
+  
+  
+  
+  .name
+  {
+  font-size: 2.5em;
+  font-weight:900;
+  font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  color:rgb(255, 0, 0);
+  }
+  .about
+  {
+  font-size: 2.0em;
+  font-weight:200;
+  color: rgb(46, 8, 95);
+  margin-top: 10px;
+  }
+  .moreabout
+  {
+      font-size: 1.5em;
+      font-weight: 400;
+      margin-top: 20px;
+      color: blue;
+  }
+.buttons button
+  {
+    margin-top: 30px;  
+  }
+  button{
+      padding:10px  5px;
+      border-radius:60px ;
+      color:beige;
+      background-color: blue;
+      margin:0 3px;
+      font-size: 15px;
+  }
+  .buttons button:hover
+  {
+  background-color:beige;
+  color: blue;
+  
+  }
+  .button1{
+    padding:0 0px;
+    font-size: small;
+  }
+  
+  /* contact page css */
+   .contactform form {
+    padding: 20px 0;
+    
+   }
+  .contactform form div
+  {
+      justify-content: center;
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+    
+    
+  }
+  .contactform  form div input{
+    border-radius:100px ;
+     width: auto;
+     height: auto;
+    padding: 0px;
+    flex-direction: row;
+
+  }
+  .first
+  {
+      margin-left:10px;
+      padding :10px;
+       font-size: 20px;
+       font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  
+  
+  }
+  .last
+  {
+      margin:10px;
+      padding:10px;
+      font-size: 20px;
+      font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  
+  }
+  .phone
+  {
+      margin:10px;
+      padding:10px;
+      font-size: 20px;
+      font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  
+  }
+  .email
+  {
+      margin:10px;
+      padding:10px;
+      font-size: 20px;
+      font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  
+  }
+  .country
+  {
+      margin:10px;
+      padding:10px;
+      font-size: 20px;
+      font-family: 'Alkatra', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  
+  }
+  .button button2
+{
+    margin-left: 100px;
+}
+  /* blog page css*/
+  .blog
+  {
+      color: rgb(94, 26, 161);
+      margin-top: 5px;
+   
+      font-size: 50px;
+      text-align: center;
+  }
+  .bg{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+
+  }
+  
+  .blog h6
+  {
+      margin-top: 0px;
+      padding: 0px;
+      margin-left: 8px;
+  }
+  .button1 button:hover
+  {
+      background-color:beige;
+      color: blue;
+  }
+  .b1 button:hover{
+    background-color:beige;
+      color: blue;
+  }
+  .body{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+
+  
+      
+  }
+  
+      
+  .body h1
+  {
+    margin-top:0px;
+    text-align: center;
+  }
+  .sercontainer
+  {
+      display:flex;
+      justify-content:space-between;
+      
+  }
+  .About h1
+  {
+      margin-left: 40px;
+  }
+  .About h1::before
+  {
+  content: '';
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top:100%;
+  left:0;
+  }
+  .skill
+  {
+      width:300px;
+      height: 0px;
+      background-color: rgb(207, 221, 9);
+      border: 4px solid rgb(119, 4, 4);
+      margin-left: 10px;
+  }
+  .skilItem
+  {
+      display: flex;
+      align-items: center;
+      color: rgb(209, 90, 193);
+  }
+  @media (max-width:485px){
+  *{
+  
+    /*  background-color:red;*/
+  }
+  .main devpic img{
+      /*transform: translate(-443px,0px);
+      position: absolute;*/
+      display: none;
+  }
+  }
+  
